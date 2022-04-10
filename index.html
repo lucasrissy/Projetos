@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <h1>Conversor de temperatura</h1>
+    <h2>Selecione a unidade de medida</h2>
+    <form>
+        <div>
+            <label>
+                <input type="text" id="inputFirst" placeholder="Digite a Temperatura" required>
+            </label>
+            <div>
+                <label for="">
+                    <input type="radio" name="radio" id="celsiusFisrt"> Graus Celsius (°C)
+                </label>
+                <label for="">
+                    <input type="radio" name="radio" id="fahrenheitFirst">Graus Fahrenheit(°F)
+                </label>
+                <label for="">
+                    <input type="radio" name="radio" id="kelvinFirst">Kelvin (K)
+                </label>
+            </div>
+        </div>
+        <h2>Selecione a unidade de medida para o resultado</h2>
+        <div>
+            
+            <div>
+                <label for="">
+                    <input type="radio" name="radioAnswer" id="celsiusSecond"> Graus Celsius (°C)
+                </label>
+                <label for="">
+                    <input type="radio" name="radioAnswer" id="fahrenheitSecond">Graus Fahrenheit(°F)
+                </label>
+                <label for="">
+                    <input type="radio" name="radioAnswer" id="kelvinSecond">Kelvin (K)
+                </label>
+            </div>
+            <button type="button" id="submit">Converter</button>
+            <button type="button" id="reset">Resetar</button>            
+        </div>
+    </form>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
